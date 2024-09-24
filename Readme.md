@@ -1,0 +1,2 @@
+# Software Debugging and testing skills
+This is the project for software debugging and testing skills for projects with large code bases. This is from beginner level to the most advance level of debugging and testing skills. The primary language here is python but the concept apply to any other programming language. 
