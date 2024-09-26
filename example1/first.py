@@ -14,7 +14,10 @@ def html_parser(s):
             output += c
     return output
 
-html_input = '<bold>somehting</bold>'
+html_input1 = '<bold>somehting</bold>'
+html_input2 = '<bold herf=">">somehting</bold>'
 
-parsed_output = html_parser(html_input)
-print(parsed_output)
+parsed_output1 = html_parser(html_input1)
+print(parsed_output1)
+parsed_output2 = html_parser(html_input2)
+print(parsed_output2)
