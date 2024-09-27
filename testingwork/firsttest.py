@@ -8,6 +8,6 @@ def multiplying(num1, num2):
     return num1 * num2
 
 def dividing(num1, num2):
-    # if num2 == 0:
-    #     raise ZeroDivisionError("Cannot divide by zero")
+    if num2 == 0:
+        raise ValueError
     return num1 / num2
