@@ -4,6 +4,12 @@ def test_add():
     assert firsttest.adding(2, 3) == 5
     assert firsttest.adding(-1, -2) == -3
     assert firsttest.adding(-1, -4) == -5  
+def test_add_string_values():
+    # with pytest.raises(TypeError):
+    #     firsttest.adding('a', 3)
+    #     firsttest.adding(3, 'a')
+    results = firsttest.adding('a', 'b')
+    assert results == 'ab'
 def test_subtracting():
     assert firsttest.subtracting(5, 3) == 2
     assert firsttest.subtracting(-2, -1) == -1
