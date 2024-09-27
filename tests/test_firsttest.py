@@ -17,5 +17,9 @@ def test_dividing():
     #     firsttest.dividing(0, 6)
     #     firsttest.dividing(-6, 0)
 def test_divide_by_zero():
-    result = firsttest.dividing(2,0)
-    assert result == True
+    # result = firsttest.dividing(2,0)
+    # assert result == True
+    with pytest.raises(ZeroDivisionError):
+        firsttest.dividing(2, 0)
+        firsttest.dividing(0, 6)
+        firsttest.dividing(-6, 0)
