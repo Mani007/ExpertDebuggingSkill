@@ -23,4 +23,8 @@ pytest .\test\test_firsttest.py
 ### Function based tests
 We can test functions using the pytest framework. 
 ### Classes based tests
-We can test classes using the pytest framework
+We can test classes using the pytest framework.       
+To run setup and teardown method for class based testing use the -s option in pytest.   
+```
+pytest .\test\test_circle.py -s
+```
