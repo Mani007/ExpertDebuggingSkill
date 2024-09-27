@@ -18,4 +18,9 @@ To activate the environment, use the following command in the terminal
 After installation of pytest, to run it create the test folder and write the test cases by importing testable functions and by writing the test files. To run the test use the following command      
 ```
 pytest .\test\test_firsttest.py
-```
+```   
+
+### Function based tests
+We can test functions using the pytest framework. 
+### Classes based tests
+We can test classes using the pytest framework
