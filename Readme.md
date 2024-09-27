@@ -1,2 +1,17 @@
-# Software Debugging and testing skills
-This is the project for software debugging and testing skills for projects with large code bases. This is from beginner level to the most advance level of debugging and testing skills. The primary language here is python but the concept apply to any other programming language. 
+# Software debugging and testing skills
+This is the project for software debugging and testing skills for projects with large code bases. This is from beginner level to the most advance level of debugging and testing skills. The primary language here is python but the concept apply to any other programming language.   
+## Pytest framework    
+
+We have implemented some pytest framework based test cases examples in order to understand core concepts of software testing, particularly automated unit testing.    
+Installation setup     
+- Virtual environment or venv for windows     
+To create virtual environment in windows10+, put this command on your terminal at your python working directory. You will have a folder created with the name .env as your local environment. 
+```
+python3 -m venv .env
+```    
+To activate the environment, use the following command in the terminal 
+```
+.env/bin/activate
+```   
+
+- pytest framework - use the documentation to install and use pytest
