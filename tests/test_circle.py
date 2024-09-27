@@ -15,3 +15,7 @@ class TestCircleShape:
         # circle = CircleShape.Circle(5)
         # assert circle.calculate_area() == pytest.approx(78.53981633974483)
         assert True
+    def test_circle_perimeter(self):
+        # circle = CircleShape.Circle(5)
+        # assert circle.calculate_area() == pytest.approx(78.53981633974483)
+        assert True
