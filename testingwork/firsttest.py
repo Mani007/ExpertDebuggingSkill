@@ -9,5 +9,5 @@ def multiplying(num1, num2):
 
 def dividing(num1, num2):
     if num2 == 0:
-        raise ZeroDivisionError("The division by zero is not allowed")
+        raise ValueError
     return num1 / num2
