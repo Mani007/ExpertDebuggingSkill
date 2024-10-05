@@ -1,13 +1,7 @@
 import pytest 
 from testingwork.shapes_class import Rectangle
+from test_config import *
 
-@pytest.fixture
-def my_rectangle():
-    return Rectangle(5, 10)
-
-@pytest.fixture
-def anohter_rectangle():
-    return Rectangle(10, 5)
 
 def test_rectangle_area(my_rectangle):
     assert my_rectangle.calculate_area() == 50
