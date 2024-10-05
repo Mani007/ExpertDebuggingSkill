@@ -32,12 +32,9 @@ def test_divide_by_zero():
         firsttest.dividing(-6, 0)
 @pytest.mark.slow 
 def test_slow_dividing():
-    time.sleep(5)
+    time.sleep(2)
     assert firsttest.dividing(6, 2) == 3
    
 @pytest.mark.xfail(reason="It is division error, hence failed")
 def test_skip_test():
-    with pytest.raises(ValueError):
-       firsttest.dividing(2, 0)
-       firsttest.dividing(0, 6)
-       firsttest.dividing(-6, 0)
+    firsttest.dividing(2, 0)
