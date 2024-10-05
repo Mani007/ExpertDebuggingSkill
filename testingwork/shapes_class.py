@@ -17,3 +17,14 @@ class Circle(Shapes):
     
     def calculate_perimeter(self):
         return 2 * 3.14 * self.radius
+    
+class Rectangle(Shapes):
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+        
+    def calculate_area(self):
+        return self.length * self.width
+        
+    def calculate_perimeter(self):
+        return 2 * (self.length + self.width)
