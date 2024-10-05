@@ -38,3 +38,5 @@ pytest .\test\test_circle.py -s
 5. logging and reports
 6. mocking - not preferable to use pytest here especially with API calls
 7. fixtures decorators
+
+##### Basic testing concept of pytest is completed here 
