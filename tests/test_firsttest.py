@@ -1,4 +1,5 @@
 import pytest
+import time
 import testingwork.firsttest as firsttest
 def test_add():
     assert firsttest.adding(2, 3) == 5
@@ -31,7 +32,9 @@ def test_divide_by_zero():
         firsttest.dividing(-6, 0)
 @pytest.mark.slow 
 def test_slow_dividing():
-    with pytest.raises(ValueError):
-        firsttest.dividing(2, 0)
-        firsttest.dividing(0, 6)
-        firsttest.dividing(-6, 0)
+    time.sleep(5)
+    assert firsttest.dividing(6, 2) == 3
+    # with pytest.raises(ValueError):
+    #     firsttest.dividing(2, 0)
+    #     firsttest.dividing(0, 6)
+    #     firsttest.dividing(-6, 0)
