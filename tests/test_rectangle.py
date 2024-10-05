@@ -1,6 +1,6 @@
 import pytest 
 from testingwork.shapes_class import Rectangle
-from test_config import *
+
 
 
 def test_rectangle_area(my_rectangle):
