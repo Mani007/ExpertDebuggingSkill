@@ -35,7 +35,7 @@ def test_slow_dividing():
     time.sleep(5)
     assert firsttest.dividing(6, 2) == 3
    
-@pytest.mark.skipif(condition=True, reason="This test is not needed right now as it is division error")
+@pytest.mark.skip(reason="This test is not needed right now as it is division error")
 def test_skip_test():
     with pytest.raises(ValueError):
        firsttest.dividing(2, 0)
