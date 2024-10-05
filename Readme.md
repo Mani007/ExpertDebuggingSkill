@@ -28,3 +28,13 @@ To run setup and teardown method for class based testing use the -s option in py
 ```
 pytest .\test\test_circle.py -s
 ```
+
+
+### Some crucial concept of pytest testing are listed below
+1. marking
+2. mark skip
+3. mark xfail
+4. parameterized testing
+5. logging and reports
+6. mocking - not preferable to use pytest here especially with API calls
+7. fixtures decorators

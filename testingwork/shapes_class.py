@@ -32,3 +32,8 @@ class Rectangle(Shapes):
         
     def calculate_perimeter(self):
         return 2 * (self.length + self.width)
+
+class Square(Rectangle):
+    # use inheritance for square from Rectangle class using super methods
+    def __init__(self, side):
+        super().__init__(side, side) # use super methods for inheriting from Rectangle class
