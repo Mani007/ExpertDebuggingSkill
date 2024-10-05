@@ -22,7 +22,11 @@ class Rectangle(Shapes):
     def __init__(self, length, width):
         self.length = length
         self.width = width
-        
+    # Equality operator method/function overloading using __eq__ for checking if two given rectangle are equal 
+    def __eq__(self, other_rect):
+        if not isinstance(other_rect, Rectangle):
+            return False
+        return self.length == other_rect.length and self.width == other_rect.width
     def calculate_area(self):
         return self.length * self.width
         
