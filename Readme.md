@@ -40,3 +40,8 @@ pytest .\test\test_circle.py -s
 7. fixtures decorators
 
 ##### Basic testing concept of pytest is completed here 
+##### Do not prefer mocking api in pytest as it verbose, prefer some other tools to do it
+### Remarks
+Some upcoming stuff that need to be completed for understanding testing are 
+1. use of testing in CI/CD environment 
+2. Different types of testing such as integration testing, functional , unittest, behavior testing etc needs to be explored preferably with some different tools
