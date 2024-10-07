@@ -13,6 +13,21 @@ To activate the environment, use the following command in the terminal
 ```
 .env/bin/activate
 ```   
+### Creating requirements.txt file
+To create requirements.txt for current project use the following command.     
+This command will give all the current library in your python virtual environment
+```python
+pip3 list
+```   
+Now run this command to create requirements.txt file from all the library
+```python
+pip3 freeze > requirements.txt
+```
+To install all the files from requirements.txt, run the following command. Make sure you have correct path for your requirements.txt file. 
+```python
+pip3 install -r requirements.txt
+```
+
 
 - pytest framework - use the documentation to install and use pytest      
 After installation of pytest, to run it create the test folder and write the test cases by importing testable functions and by writing the test files. To run the test use the following command      
