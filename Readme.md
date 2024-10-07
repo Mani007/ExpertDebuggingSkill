@@ -32,6 +32,7 @@ pip3 install -r requirements.txt
 - pytest framework - use the documentation to install and use pytest      
 After installation of pytest, to run it create the test folder and write the test cases by importing testable functions and by writing the test files. To run the test use the following command      
 ```
+
 pytest .\test\test_firsttest.py
 ```   
 
