@@ -10,9 +10,12 @@ To create virtual environment in windows10+, put this command on your terminal a
 python3 -m venv .env
 ```    
 To activate the environment, use the following command in the terminal 
+~~.env/bin/activate~~ for the older version the folder name is bin/activate
 ```
-.env/bin/activate
+
+.env/Scripts/activate
 ```   
+*NOTE:when you are not able to select correct python interpreter then try setting up environment variable or try renaming the python executable file. This will enable you to select correct python interpreter*
 ### Creating requirements.txt file
 To create requirements.txt for current project use the following command.     
 This command will give all the current library in your python virtual environment
