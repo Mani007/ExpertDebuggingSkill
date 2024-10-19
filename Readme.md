@@ -1,5 +1,13 @@
 # Software debugging and testing skills
-This is the project for software debugging and testing skills for projects with large code bases. This is from beginner level to the most advance level of debugging and testing skills. The primary language here is python but the concept apply to any other programming language. **We will be using Chat GPT for writing the test cases for python.**       
+This is the project for software debugging and testing skills for projects with large code bases. This is from beginner level to the most advance level of debugging and testing skills. The primary language here is python but the concept apply to any other programming language. **We will be using Chat GPT for writing the test cases for python.**     
+
+
+### General Testing skills
+Udacity course for software debugging is one of the best resources here. We also prefer a book called Code Complete v2.     
+Now imagine a program for HTML tag parser as an example. Make sure you have the state-machine diagram, algorithm and a really clear understanding of what type of programme is needed to be written before you actually code. Once you complete your code, you will need to start testing it to different inputs with all possible cases and check the output. And finally you can write automated tests cases to check all the possible cases for the program.    
+
+
+
 ## Pytest framework    
 
 We have implemented some pytest framework based test cases examples in order to understand core concepts of software testing, particularly automated unit testing.    
