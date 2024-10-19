@@ -11,7 +11,7 @@ def html_parser(s):
             tag_mode = True
         elif c == '>' and not quote_mode:
             tag_mode = False
-        elif c == '"' or c == "'":
+        elif c == '"' or c == "'" and tag_mode:
             quote_mode = not quote_mode
         elif not tag_mode:
             output += c
