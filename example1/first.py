@@ -7,6 +7,8 @@ def html_parser(s):
     quote_mode = False
     output = ''
     for c in s: 
+        # Devils idea of debugging using infamous print statements for local variables
+        print(tag_mode, quote_mode, output)
         if c == '<' and not quote_mode:
             tag_mode = True
         elif c == '>' and not quote_mode:
