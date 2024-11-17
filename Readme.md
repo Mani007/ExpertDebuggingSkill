@@ -4,9 +4,18 @@ This is the project for software debugging and testing skills for projects with 
 
 ### General Testing skills
 Udacity course for software debugging is one of the best resources here. We also prefer a book called Code Complete v2.     
-Now imagine a program for HTML tag parser as an example. Make sure you have the state-machine diagram, algorithm and a really clear understanding of what type of programme is needed to be written before you actually code. Once you complete your code, you will need to start testing it to different inputs with all possible cases and check the output. And finally you can write automated tests cases to check all the possible cases for the program.    
+Now imagine a program for HTML tag parser as an example. Make sure you have the state-machine diagram, algorithm and a really clear understanding of what type of programme is needed to be written before you actually code. Once you complete your code, you will need to start testing it to different inputs with all possible cases and check the output. And finally you can write automated tests cases to check all the possible cases for the program. Version control system are also crucial to know your state of debugging.        
 
-#### Devils idea for debugging using print statements on each line of code and its local variables. Please dont do that, you will have better way to solve the problems. 
+#### Devils idea #1 for debugging using print statements on each line of code and its local variables. Please dont do that, you will have better way to solve the problems. This may look simple for short programs but in real world, this idea is a total maintenance nightmare. Unremoved print statement in production code often leads to security issues as well.   
+
+#### Devil idea #2 for debugging is to try and debug the program until it works properly. This is also called as mindless debugging as you have not understood the problem correctly before you start debugging. Also you have not reproduced the error in a test environment and corrected it properly. For a tightly coupled program this way of working will lead to overall disaster in the entire codebase and later its hard to even find the infection in the program where the problem started.  
+
+#### Devil idea #3 for debugging is to not use the version control system to backup your codebase history and its output. You may also need a log file to have history of your codebase outputs for different test cases. 
+
+#### Devil idea #4 for debugging is to not paying enough attention to understanding how the program works in terms of algorithms, flowcharts, and state machine diagrams.   
+
+#### Devil idea #5 for debugging is to use the MOST obvious fix. Sure in short term it may work but in reality this solution may be catastrophic for the entire program. It simply means fixing the symptoms instead of fixing the problem.  
+
 
 ## Pytest framework    
 
