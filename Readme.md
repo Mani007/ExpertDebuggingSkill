@@ -32,6 +32,11 @@ To activate the environment, use the following command in the terminal
 
 .env/Scripts/activate
 ```   
+### For python3 in Mac
+```
+python3 -m venv .env
+source .env/bin/activate
+```
 *NOTE:when you are not able to select correct python interpreter then try setting up environment variable or try renaming the python executable file. This will enable you to select correct python interpreter*
 ### Creating requirements.txt file
 To create requirements.txt for current project use the following command.     
