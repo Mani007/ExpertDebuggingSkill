@@ -7,3 +7,4 @@ while True:
     clinetSocket, address = s.accept()
     print(f"Connection from {address} has been established.")
     clinetSocket.send(bytes("Hello, welcome to the server!", "utf-8"))
+    clinetSocket.close()
